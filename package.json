@@ -1,0 +1,24 @@
+{
+  "name": "portofolio-syahdan",
+  "version": "1.0.0",
+  "description": "Portofolio Syahdan dengan NODEJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syahdan24-Danz/PortofolioSYDN.github.io.git"
+  },
+  "author": "Syahdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syahdan24-Danz/PortofolioSYDN.github.io/issues"
+  },
+  "homepage": "https://github.com/Syahdan24-Danz/PortofolioSYDN.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3"
+  }
+}
