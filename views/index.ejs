@@ -1,20 +1,28 @@
 <%- include ("partials/header.ejs") %>
 
-<section id="profile" class="h-screen gap-8 p-20 flex flex-row">
-  <div
-    class="p-8 rounded-md outline-profile h-full basis-1/4 flex flex-col items-center"
-  >
-    <div
-      class="foto-data flex justify-center w-40 h-40 rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500"
-    >
-      <img class="foto mt-4" src="/images/syahdanpp.png" alt="" />
+<section id="profile" class="p-20 flex flex-row justify-center">
+  <div class="flex flex-col gap-4 items-center">
+    <div class="foto-me rounded-full">
+      <img src="/images/syahdanpp.png" alt="">
+    </div>
+
+    <div class="profile-data flex flex-col items-center">
+    <div class="flex flex-col items-center gap-2">
+      <h1 class="font-bold text-3xl tracking-wide">Syahdan Firmansyah</h1>
+      <p>I'am Front End Web Developer</p>
     </div>
     <div>
-      <h1>Syahdan Firmansyah</h1>
-      <h3>Junior Web Developer</h3>
+      <ul class="flex flex-row gap-6 p-8">
+        <li><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></i></li>
+        <li><a href=""><i class="fa-brands fa-linkedin-in fa-2x"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+      </ul>
+    </div>
+    <div>
+      <button type="submit"><a class="hire-me font-bold py-2 px-4 rounded-xl tracking-widers" href="">Hire me</a></button>
     </div>
   </div>
-  <div class="p-8 rounded-md outline-profile basis-full">02</div>
+  </div>
 </section>
 
 <%- include ("partials/footer.ejs") %>
